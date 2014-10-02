@@ -36,7 +36,7 @@ var drpcClient = new DRPC(options);
 
 **Methods**
 
-- execute(String topology, String emitValue[, Function callback]): call storm drpc cluster by thrift protocol
+- execute(String spoutName, String emitValue[, Function callback]): call storm drpc cluster by thrift protocol
 
 ---
 
@@ -58,7 +58,7 @@ client.on('error', function(err) {
 });
 
 // promise way
-client.execute('topology-name', JSON.stringify(data))
+client.execute('spout-name', JSON.stringify(data))
     .then(function(res) {
         console.log(res);
     })
@@ -67,7 +67,7 @@ client.execute('topology-name', JSON.stringify(data))
     });
 
 // callback way
-client.execute('topology-name', JSON.stringify(data), function(err, res) {
+client.execute('spout-name', JSON.stringify(data), function(err, res) {
     if(err) throw err;
     else console.log(res);
 });
