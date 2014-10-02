@@ -43,9 +43,9 @@ var drpcClient = new DRPC(options);
 ### Example
 
 ``` js
-var DRCP = require('storm-drpc-node');
+var DRPC = require('storm-drpc-node');
 
-var client = DRCP({
+var client = DRPC({
     host: '127.0.0.1',
     port: 3772,
     timeout: 1000,
