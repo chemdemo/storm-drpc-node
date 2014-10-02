@@ -1,4 +1,4 @@
-# stormdrpc-node
+# node-drpc
 
 Apache storm DRPC client for Node.js
 
@@ -6,12 +6,12 @@ Inspired by [node-drpc](https://github.com/rkatti/node-drpc), but the difference
 
 ### Install
 
-`npm install stormdrpc-node`
+`npm install node-drpc`
 
 ### Usage
 
 ``` js
-var DRPC = require('stormdrpc-node');
+var DRPC = require('node-drpc');
 
 var drpcClient = new DRPC(options);
 ```
@@ -36,14 +36,14 @@ var drpcClient = new DRPC(options);
 
 **Methods**
 
-- execute: call storm drpc cluster by thrift protocol
+- execute(String topology, String emitValue[, Function callback]): call storm drpc cluster by thrift protocol
 
 ---
 
 ### Example
 
 ``` js
-var DRCP = require('stormdrcp-node');
+var DRCP = require('node-drpc');
 
 var client = DRCP({
     host: '127.0.0.1',
