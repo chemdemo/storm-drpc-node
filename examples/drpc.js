@@ -2,12 +2,12 @@
 * @Author: dm.yang
 * @Date:   2014-10-02 15:39:40
 * @Last Modified by:   dm.yang
-* @Last Modified time: 2014-10-02 16:06:28
+* @Last Modified time: 2014-10-02 16:13:14
 */
 
-var DRCP = require('stormdrcp-node');
+var DRPC = require('../index');
 
-var client = DRCP({
+var client = DRPC({
     host: '127.0.0.1',
     port: 3772,
     timeout: 1000,
