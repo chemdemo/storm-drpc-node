@@ -1,4 +1,4 @@
-# node-drpc
+# storm-drpc-node
 
 Apache storm DRPC client for Node.js
 
@@ -6,12 +6,12 @@ Inspired by [node-drpc](https://github.com/rkatti/node-drpc), but the difference
 
 ### Install
 
-`npm install node-drpc`
+`npm install storm-drpc-node`
 
 ### Usage
 
 ``` js
-var DRPC = require('node-drpc');
+var DRPC = require('storm-drpc-node');
 
 var drpcClient = new DRPC(options);
 ```
@@ -43,7 +43,7 @@ var drpcClient = new DRPC(options);
 ### Example
 
 ``` js
-var DRCP = require('node-drpc');
+var DRCP = require('storm-drpc-node');
 
 var client = DRCP({
     host: '127.0.0.1',
@@ -77,4 +77,4 @@ client.execute('topology-name', JSON.stringify(data), function(err, res) {
 
 ### Licence
 
-stormdprc-node is licenced under the MIT licence.
+storm-drpc-node is licenced under the MIT licence.

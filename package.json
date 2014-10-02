@@ -1,5 +1,5 @@
 {
-  "name": "node-drpc",
+  "name": "storm-drpc-node",
   "description": "Apache storm DRPC client for Node.js",
   "version": "0.0.1",
   "engine": {
@@ -11,7 +11,7 @@
   "main": "./index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chemdemo/node-drpc.git"
+    "url": "https://github.com/chemdemo/storm-drpc-node.git"
   },
   "dependencies": {
     "node-int64": "0.3.1",
