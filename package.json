@@ -1,0 +1,36 @@
+{
+  "name": "stormdrpc-node",
+  "description": "Apache storm DRPC client for Node.js",
+  "version": "0.0.1",
+  "engine": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "main": "./index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chemdemo/stormdrpc-node.git"
+  },
+  "dependencies": {
+    "node-int64": "0.3.1",
+    "when": "3.5.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "drcp-node",
+    "storm-node",
+    "drpc",
+    "storm"
+  ],
+  "author": "dmyang <yangdemo@gmail.com>",
+  "maintainers": [
+    {
+      "name": "dmyang",
+      "email": "yangdemo@gmail.com",
+      "web": "https://www.dmfeel.com"
+    }
+  ],
+  "license": "MIT"
+}
