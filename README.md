@@ -34,6 +34,10 @@ var drpcClient = new DRPC(options);
 
 - close: emit when connect close while conection is keepAlive
 
+- connect: emit when connection ready
+
+- timeout: timeout event listener
+
 **Methods**
 
 - execute(String spoutName, String emitValue[, Function callback]): call storm drpc cluster by thrift protocol
