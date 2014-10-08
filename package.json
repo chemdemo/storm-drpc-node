@@ -1,7 +1,7 @@
 {
   "name": "storm-drpc-node",
   "description": "Apache storm DRPC client for Node.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engine": {
     "node": ">= 0.8.0"
   },
