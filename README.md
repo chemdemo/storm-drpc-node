@@ -2,7 +2,7 @@
 
 Apache storm DRPC client for Node.js
 
-Inspired by [node-drpc](https://github.com/rkatti/node-drpc), but the difference is that it can be optionally set keep alive, it does't need to createConnection in every `execute()` call, and one can use it in the traditional or promise way as it like.
+Inspired by [node-drpc](https://github.com/rkatti/node-drpc), but the difference is that it can be optionally set keep alive, it does't need to create connection in every `execute()` call, and one can use it in the traditional or promise way as it likes.
 
 ### Install
 
