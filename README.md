@@ -61,7 +61,7 @@ client.on('error', function(err) {
     throw err;
 });
 
-// promise way
+// Promise way
 client.execute('spout-name', JSON.stringify(data))
     .then(function(res) {
         console.log(res);
